@@ -1,0 +1,514 @@
+body {
+  font-family: "Lato";
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: #1f1f1f;
+  padding: 0px;
+  margin: 0px;
+  background-color: #f3f2f0;
+  overflow-x: hidden;
+}
+nav {
+  width: 100vw;
+  height: 71px;
+  background-color: black;
+  position: fixed;
+  z-index: 99;
+}
+#navElements {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#mandcLogo {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  padding-bottom: 10px;
+}
+#navAddress {
+  position: fixed;
+  left: 225px;
+  top: 16px;
+}
+#navAddressBox {
+  color: white;
+  padding-bottom: 7px;
+}
+#mandcName {
+  font-size: 13px;
+  line-height: 20px;
+}
+#mandcAddress {
+  padding-top: 1px;
+  font-size: 10px;
+  letter-spacing: 0.225px;
+}
+#burgerMenuList {
+  position: fixed;
+  left: 1102px;
+  top: -45px;
+}
+#bannerBurger {
+  position: inherit;
+  height: 70px;
+  width: 70px;
+  padding: auto;
+  margin-left: 30px;
+}
+#burgerBox {
+  list-style: none;
+}
+.burgerLines {
+  height: 3px;
+  width: 20px;
+  background-color: #b6833f;
+  margin-bottom: 3px;
+  padding: 0px;
+}
+#navMenuOrange {
+  height: 70px;
+  width: 25.7%;
+  background-color: #b6833f;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-weight: 60;
+  font-size: 14px;
+}
+#bookTableLink p {
+  margin-top: 25px;
+  margin-left: 150px;
+}
+#jumboImage {
+  display: inline;
+  position: absolute;
+  width: 100vw;
+  padding-top: 71px;
+  border-top: 1px solid white;
+}
+#reserveBlock {
+  background-color: #f3f2f0;
+  height: 120px;
+  width: 100vw;
+  position: absolute;
+  top: 542px;
+  left: -8px;
+}
+#reserveBox {
+  background-color: #b6833f;
+  height: 83px;
+  width: 450px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+#intro {
+  display: block;
+  position: absolute;
+  top: 683px;
+  width: 100vw;
+  height: 800px;
+}
+#butcherImg {
+  display: inline-block;
+  position: relative;
+  left: 36px;
+  top: 1px;
+  padding-right: 60px;
+  width: 765px;
+  height: 355px;
+}
+#butcher {
+  width: 70%;
+  float: right;
+  margin-right: 24px;
+}
+#introPara {
+  width: 455px;
+  display: inline-block;
+  position: inherit;
+  padding-left: 20px;
+}
+#mastersOfSteakLogo {
+  position: inherit;
+  top: -10px;
+  left: 21px;
+  display: inline;
+  width: 445px;
+  height: 78px;
+  float: left;
+}
+#introHeading {
+  width: inherit;
+  color: #b6833f;
+  text-align: justify;
+  letter-spacing: 3.5px;
+  font-size: 24px;
+  padding-top: 87px;
+}
+#introText {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -9px;
+}
+#readMoreBox {
+  height: 50px;
+  width: 240px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+#readMoreBlock {
+  background-color: #b6833f;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding-top: 16px;
+  box-sizing: border-box;
+}
+#readMoreBlock:hover {
+  background-color: #b6919b;
+}
+#readMoreLink {
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+#readMoreLink:visited {
+  color: white;
+}
+#readMoreLink:hover {
+  color: white;
+}
+#readMoreLink:link {
+  color: white;
+}
+#readMoreLink:active {
+  color: white;
+}
+#lookAtMenu {
+  display: block;
+  position: absolute;
+  top: 1375px;
+  width: 100vw;
+  height: 700px;
+  text-decoration: none;
+}
+#imageGif {
+  margin-left: 300px;
+  display: inline-block;
+  float: left;
+}
+#menuList {
+  background-color: white;
+  width: 314px;
+  height: 420px;
+  display: inline;
+  float: left;
+  margin-left: 37px;
+  color: #b6833f;
+  text-decoration: none;
+}
+#menuListText {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  position: relative;
+  left: -25px;
+  text-align: center;
+}
+#menuListList {
+  list-style: none;
+  text-decoration: none;
+}
+.menuListBoxes {
+  box-sizing: border-box;
+  background-color: #b6833f;
+  height: 50px;
+  width: 240px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1.4px;
+  padding-top: 15px;
+}
+.menuListBoxes a {
+  height: 50px;
+  width: 225px;
+  text-decoration: none;
+}
+.menuListBoxes:hover {
+  background-color: #b6919b;
+}
+#menuListXmas {
+  margin-bottom: 35px;
+}
+#menuListAllMenuLink {
+  color: #b6833f;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  left: -20px;
+  top: 10px;
+  background-color: #f3f2f0;
+}
+#menuListAllMenuText {
+  color: #b6833f;
+}
+#menuListAllMenuText:hover {
+  color: #b6833f;
+}
+#menuListAllMenuText:visited {
+  color: #b6833f;
+}
+#menuListAllMenuText:active {
+  color: #b6833f;
+}
+#menuListAllMenuText:link {
+  color: #b6833f;
+}
+#bioText {
+  color: #4d4d71;
+  width: 100%;
+  height: 300px;
+  padding: auto;
+  text-align: center;
+  position: absolute;
+  top: 1894px;
+  font-size: 16px;
+  line-height: 23px;
+}
+#bioText p {
+  width: 975px;
+  margin-left: 300px;
+}
+#bioText p a:active {
+  color: #b6833f;
+}
+#bioText p a:visited {
+  color: #b6833f;
+}
+#bioText p a:link {
+  color: #b6833f;
+}
+#bioText p a:hover {
+  color: #b6833f;
+}
+#pictureList {
+  position: absolute;
+  top: 2115px;
+  margin-left: 10px;
+}
+#pictureList ul {
+  list-style: none;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#pictureList ul li {
+  margin-right: 40px;
+}
+.promoPics {
+  height: 390px;
+}
+#lowerJumbo {
+  position: absolute;
+  top: 2606px;
+  left: 0px;
+  height: 450px;
+  width: 100%;
+  background-color: #cdcdcd;
+}
+#mapContact {
+  position: absolute;
+  top: 3065px;
+  width: 100%;
+  height: 500px;
+  padding-top: 75px;
+  padding-left: 200px;
+}
+#contact {
+  width: 50%;
+}
+h3,
+h4 {
+  color: #b6833f;
+}
+h3 {
+  font-size: 21px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+}
+#address {
+  width: 30%;
+  padding-right: 50px;
+  line-height: 22px;
+}
+#address p,
+#phoneNumber p {
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+  top: -60px;
+}
+#address a {
+  font-weight: 200;
+}
+#address a:link {
+  color: #b6833f;
+}
+#address a:active {
+  color: #b6833f;
+}
+#address a:visited {
+  color: #b6833f;
+}
+#address a:hover {
+  color: #b6833f;
+}
+#phoneHours {
+  width: 220px;
+  position: absolute;
+  top: 120px;
+  left: 500px;
+}
+#phoneNumber p {
+  top: -75px;
+}
+#openingHours {
+  position: relative;
+  top: -80px;
+}
+#openingHours table {
+  color: black;
+  height: 140px;
+  width: 220px;
+  font-size: 14px;
+  position: relative;
+  top: -76px;
+  left: -3px;
+}
+#openingHours table tr {
+  height: 20px;
+  padding: 0px;
+}
+.days {
+  font-weight: 600;
+}
+#mapDiv {
+  width: 50%;
+  height: 470px;
+  position: relative;
+  top: -310px;
+  left: 610px;
+}
+#footerpictures {
+  position: absolute;
+  top: 3533px;
+  padding-left: 342px;
+}
+#socialMedia {
+  height: 120px;
+  width: 100vw;
+  position: absolute;
+  top: 3705px;
+  left: -35px;
+}
+#socialMediaList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 47px;
+}
+#socialMediaList li {
+  margin-left: 20px;
+}
+.mediaLogos {
+  height: 45px;
+  width: 45px;
+}
+#fbLogo {
+  width: 40px;
+}
+#twitterLogo {
+  height: 35px;
+}
+#twitterLogo img {
+  opacity: 0.7;
+}
+#igLogo {
+  margin-left: -5px;
+}
+#igLogo img {
+  opacity: 0.5;
+}
+footer {
+  position: absolute;
+  top: 3840px;
+  left: 332px;
+  width: 1000px;
+  font-size: 15.5px;
+  font-weight: 100;
+  letter-spacing: 0.2px;
+  color: #4d4d4d;
+  padding-bottom: 40px;
+}
+#footerAddress {
+  margin-top: -13px;
+  line-height: 18px;
+}
+#footerPhone {
+  font-size: 11px;
+  margin-top: -8px;
+}
+#footerList {
+  width: 1000px;
+}
+#footerLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: -40px;
+  width: 1000px;
+}
+.footerRefs {
+  color: #4d4d4d;
+  text-decoration: none;
+  padding-right: 40px;
+  margin: 0;
+  font-size: 11px;
+}
+.footerRefs:active {
+  color: #4d4d4d;
+}
+.footerRefs:link {
+  color: #4d4d4d;
+}
+.footerRefs:visited {
+  color: #4d4d4d;
+}
+.footerRefs:hover {
+  color: #b6833f;
+}
+#copyMandC {
+  padding-left: 215px;
+  width: 200px;
+  font-size: 11px;
+}
+#footerPlus {
+  position: relative;
+}
